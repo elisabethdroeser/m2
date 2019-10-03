@@ -11,8 +11,9 @@
         "sort-packages": true
     },
     "require": {
+        "cweagans/composer-patches": "^1.6",
         "magento/product-community-edition": "2.3.2",
-        "mageplaza/module-gdpr": "dev-master"
+        "mageplaza/module-gdpr": "~1.2.3.4"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.2.0",

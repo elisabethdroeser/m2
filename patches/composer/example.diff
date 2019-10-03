@@ -1,0 +1,23 @@
+diff --git a/Logger/Handler/Debug.php b/Logger/Handler/Debug.php
+index 73e12f2..cca3541 100644
+--- a/Logger/Handler/Debug.php
++++ b/Logger/Handler/Debug.php
+@@ -9,6 +9,7 @@ namespace Magento\Framework\Logger\Handler;
+ use Monolog\Logger;
+ 
+ class Debug extends Base
++//system file for debug
+ {
+     /**
+      * @var string
+diff --git a/Logger/Handler/Exception.php b/Logger/Handler/Exception.php
+index e46c0ff..0e8bf04 100644
+--- a/Logger/Handler/Exception.php
++++ b/Logger/Handler/Exception.php
+@@ -18,5 +18,5 @@ class Exception extends Base
+     /**
+      * @var int
+      */
+-    protected $loggerType = Logger::INFO;
++    protected $loggerType = Logger::DEBUG;
+ }
