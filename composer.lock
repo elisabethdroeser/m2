@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd4036f7649adb2a3bd34f31988f4fbc",
+    "content-hash": "028c030d659c4775f68f83af31d8aa63",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -1944,6 +1944,11 @@
                 "ext-imagick": "Use Image Magick >=3.0.0 as an optional alternative image processing library"
             },
             "type": "magento2-library",
+            "extra": {
+                "patches_applied": {
+                    "WAMP/XAMP-issue: admin screen is full grey": "patches/composer/example.diff"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
